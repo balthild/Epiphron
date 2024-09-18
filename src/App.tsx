@@ -2,7 +2,10 @@ import {
   BottomTabNavigationOptions,
   createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
-import { PlatformPressable, SafeAreaProviderCompat } from '@react-navigation/elements';
+import {
+  PlatformPressable,
+  SafeAreaProviderCompat,
+} from '@react-navigation/elements';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { TouchableOpacity } from 'react-native';
