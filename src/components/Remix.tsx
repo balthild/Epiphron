@@ -1,16 +1,11 @@
 import createIconSet from '@expo/vector-icons/createIconSet';
-import { decodeXML } from 'entities';
 import { Asset } from 'expo-asset';
-import glyphData from 'remixicon/fonts/remixicon.glyph.json';
+import fontAssetId from 'remixicon/fonts/remixicon.ttf';
 
-export type IconName = keyof typeof glyphData;
+import glyphMap from 'virtual:remixicon-glyph-map';
 
-const glyphMap = {} as Record<IconName, string>;
+export type IconName = keyof typeof glyphMap;
 
-for (const [name, value] of Object.entries(glyphData)) {
-  glyphMap[name as IconName] = decodeXML(value.unicode);
-}
-
-const asset = Asset.fromModule(require('remixicon/fonts/remixicon.ttf'));
+const asset = Asset.fromModule(fontAssetId);
 
 export const Remix = createIconSet(glyphMap, 'remixicon', asset.uri);

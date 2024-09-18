@@ -19,7 +19,6 @@
     "@react-navigation/elements": "^2.0.0-rc.24",
     "@react-navigation/native": "^7.0.0-rc.19",
     "@react-navigation/native-stack": "^7.0.0-rc.27",
-    "entities": "^5.0.0",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
     "firebase": "^10.13.1",
@@ -35,6 +34,7 @@
     "@babel/core": "^7.20.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@types/react": "~18.3.6",
+    "entities": "^5.0.0",
     "prettier": "^3.3.3",
     "typescript": "^5.1.3"
   }
