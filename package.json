@@ -9,7 +9,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "fmt": "prettier --write ./src"
+    "fmt": "dprint fmt"
   },
   "dependencies": {
     "@emotion/native": "^11.11.0",
@@ -34,8 +34,8 @@
     "@babel/core": "^7.20.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@types/react": "~18.3.6",
+    "dprint": "^0.47.2",
     "entities": "^5.0.0",
-    "prettier": "^3.3.3",
     "typescript": "^5.1.3"
   }
 }

@@ -843,6 +843,46 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@dprint/darwin-arm64@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/darwin-arm64/-/darwin-arm64-0.47.2.tgz#dea8bfa146159e565e510266a2f1d7ebd2676090"
+  integrity sha512-mVPFBJsXxGDKHHCAY8wbqOyS4028g1bN15H9tivCnPAjwaZhkUimZHXWejXADjhGn+Xm2SlakugY9PY/68pH3Q==
+
+"@dprint/darwin-x64@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/darwin-x64/-/darwin-x64-0.47.2.tgz#9e03a7ebb1a38ffcd46fbade96e98e8326d4c77c"
+  integrity sha512-T7wzlc+rBV+6BRRiBjoqoy5Hj4TR2Nv2p2s9+ycyPGs10Kj/JXOWD8dnEHeBgUr2r4qe/ZdcxmsFQ5Hf2n0WuA==
+
+"@dprint/linux-arm64-glibc@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/linux-arm64-glibc/-/linux-arm64-glibc-0.47.2.tgz#7d6c70b1c097d8dd8756cb4cdff40afdde4d42f3"
+  integrity sha512-B0m1vT5LdVtrNOVdkqpLPrSxuCD+l5bTIgRzPaDoIB1ChWQkler9IlX8C+RStpujjPj6SYvwo5vTzjQSvRdQkA==
+
+"@dprint/linux-arm64-musl@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/linux-arm64-musl/-/linux-arm64-musl-0.47.2.tgz#76158f3400848d6d00023559c7b1fbf1cf1198c9"
+  integrity sha512-zID6wZZqpg2/Q2Us+ERQkbhLwlW3p3xaeEr00MPf49bpydmEjMiPuSjWPkNv+slQSIyIsVovOxF4lbNZjsdtvw==
+
+"@dprint/linux-x64-glibc@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/linux-x64-glibc/-/linux-x64-glibc-0.47.2.tgz#1c30261e7a085bcbd6d673c7ac4064a4e50c1a02"
+  integrity sha512-rB3WXMdINnRd33DItIp7mObS7dzHW90ZzeJSsoKJLPp+Z7wXjjb27UUowfqVI4baa/1pd7sdbX54DPohMtfu/A==
+
+"@dprint/linux-x64-musl@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/linux-x64-musl/-/linux-x64-musl-0.47.2.tgz#27d50baca893bbaa8d5ff6448621a1d68d5eba1b"
+  integrity sha512-E0+TNbzYdTXJ/jCVjUctVxkda/faw++aDQLfyWGcmdMJnbM7NZz+W4fUpDXzMPsjy+zTWxXcPK7/q2DZz2gnbg==
+
+"@dprint/win32-arm64@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/win32-arm64/-/win32-arm64-0.47.2.tgz#eb7eb2b4acd17d8221ae85c835c80aa1b6b3110c"
+  integrity sha512-K1EieTCFjfOCmyIhw9zFSduE6qVCNHEveupqZEfbSkVGw5T9MJQ1I9+n7MDb3RIDYEUk0enJ58/w82q8oDKCyA==
+
+"@dprint/win32-x64@0.47.2":
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/@dprint/win32-x64/-/win32-x64-0.47.2.tgz#117c4b22de19dd11991851f27424ccc332d2266a"
+  integrity sha512-LhizWr8VrhHvq4ump8HwOERyFmdLiE8C6A42QSntGXzKdaa2nEOq20x/o56ZIiDcesiV+1TmosMKimPcOZHa+Q==
+
 "@emotion/babel-plugin@^11.12.0":
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.12.0.tgz#7b43debb250c313101b3f885eba634f1d723fcc2"
@@ -3570,6 +3610,20 @@ dotenv@^16.4.4, dotenv@~16.4.5:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
   integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
 
+dprint@^0.47.2:
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/dprint/-/dprint-0.47.2.tgz#f3aca518324b9948066652c87e4c4a3bc509869d"
+  integrity sha512-geUcVIIrmLaY+YtuOl4gD7J/QCjsXZa5gUqre9sO6cgH0X/Fa9heBN3l/AWVII6rKPw45ATuCSDWz1pyO+HkPQ==
+  optionalDependencies:
+    "@dprint/darwin-arm64" "0.47.2"
+    "@dprint/darwin-x64" "0.47.2"
+    "@dprint/linux-arm64-glibc" "0.47.2"
+    "@dprint/linux-arm64-musl" "0.47.2"
+    "@dprint/linux-x64-glibc" "0.47.2"
+    "@dprint/linux-x64-musl" "0.47.2"
+    "@dprint/win32-arm64" "0.47.2"
+    "@dprint/win32-x64" "0.47.2"
+
 eastasianwidth@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
@@ -6105,11 +6159,6 @@ postcss@~8.4.32:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
-
-prettier@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
-  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 pretty-bytes@5.6.0:
   version "5.6.0"
