@@ -10,11 +10,15 @@
     "jsxOpeningElement.bracketPosition": "sameLine",
     "jsxSelfClosingElement.bracketPosition": "nextLine"
   },
+  "imporg": {
+    "aliases": ["^@/", "^virtual:"]
+  },
   "excludes": [
     "**/node_modules",
     "**/*-lock.json"
   ],
   "plugins": [
+    "https://github.com/balthild/dprint-plugin-imporg/releases/download/0.1.3/dprint_plugin_imporg.wasm",
     "https://plugins.dprint.dev/typescript-0.93.0.wasm",
     "https://plugins.dprint.dev/json-0.19.3.wasm",
     "https://plugins.dprint.dev/markdown-0.17.8.wasm"
